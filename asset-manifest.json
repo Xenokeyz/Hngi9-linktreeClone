@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Hngi9-linktreeClone/static/css/main.ef03f75b.css",
-    "main.js": "/Hngi9-linktreeClone/static/js/main.e2f61b62.js",
+    "main.css": "/Hngi9-linktreeClone/static/css/main.d1abd7ba.css",
+    "main.js": "/Hngi9-linktreeClone/static/js/main.10dcc920.js",
     "static/media/I4G-logo.svg": "/Hngi9-linktreeClone/static/media/I4G-logo.601ff0479d970c740e8b7d7ba7821548.svg",
     "static/media/profileFrame.svg": "/Hngi9-linktreeClone/static/media/profileFrame.56601b4d04e63bff29bcaad20a3f8bb1.svg",
     "static/media/zuri.svg": "/Hngi9-linktreeClone/static/media/zuri.0f8c3aa843c87d1f28aa0826858bd0ef.svg",
@@ -10,11 +10,11 @@
     "static/media/dots.svg": "/Hngi9-linktreeClone/static/media/dots.2af13fa62624ad9f6952c87bb0fd1888.svg",
     "index.html": "/Hngi9-linktreeClone/index.html",
     "static/media/share-icon.svg": "/Hngi9-linktreeClone/static/media/share-icon.e3f81b496e21f13d54272e5772ace63b.svg",
-    "main.ef03f75b.css.map": "/Hngi9-linktreeClone/static/css/main.ef03f75b.css.map",
-    "main.e2f61b62.js.map": "/Hngi9-linktreeClone/static/js/main.e2f61b62.js.map"
+    "main.d1abd7ba.css.map": "/Hngi9-linktreeClone/static/css/main.d1abd7ba.css.map",
+    "main.10dcc920.js.map": "/Hngi9-linktreeClone/static/js/main.10dcc920.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef03f75b.css",
-    "static/js/main.e2f61b62.js"
+    "static/css/main.d1abd7ba.css",
+    "static/js/main.10dcc920.js"
   ]
 }
