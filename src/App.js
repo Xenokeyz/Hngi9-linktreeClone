@@ -23,10 +23,10 @@ function App() {
       <div className="profile-section">
         <img src={profile} id="profile__img" alt="user avatar" />
         <h1 id="twitter" className="twitter">
-          Xenoscripted
+          XenoScript
         </h1>
         <h2 id="slack" hidden>
-          Xenoscripted
+          Xeno
         </h2>
 
         <button className="share-button share-button__mobile">
@@ -39,7 +39,7 @@ function App() {
       </div>
 
       <div className="links-section">
-        <ButtonLink id="twitter" url="#twitter" text="Twitter Link" />
+        <ButtonLink id="twitter" url="https://twitter.com/Xenokeyzz" text="Twitter Link" />
 
         <ButtonLink
           id="btn__zuri"
@@ -55,7 +55,7 @@ function App() {
 
         <ButtonLink
           id="book__python"
-          url="https://books.zuri.team/python-for-beginners?ref_id=ebenscript"
+          url="https://books.zuri.team/python-for-beginners?ref_id=xenokeyz"
           text="Python Books"
         />
 
@@ -77,7 +77,7 @@ function App() {
           <img src={slack} alt="slack logo" />
         </a>
 
-        <a href="https://github.com/Xenoscript" className="social-link">
+        <a href="https://github.com/Xenokeyz" className="social-link">
           <img src={github} alt="github logo" />
         </a>
       </div>
