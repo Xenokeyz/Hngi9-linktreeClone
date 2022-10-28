@@ -23,10 +23,10 @@ function App() {
       <div className="profile-section">
         <img src={profile} id="profile__img" alt="user avatar" />
         <h1 id="twitter" className="twitter">
-          Xenoscript
+          Xenoscripted
         </h1>
         <h2 id="slack" hidden>
-          Xenoscript
+          Xenoscripted
         </h2>
 
         <button className="share-button share-button__mobile">
