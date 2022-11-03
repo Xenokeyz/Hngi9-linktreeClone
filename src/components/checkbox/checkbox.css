@@ -1,13 +1,13 @@
 .checkbox {
   display: inline-flex;
   gap: 15px;
-  min-width: 344px;
   align-items: flex-start;
   outline: none;
 }
 
 .checkbox__check {
   display: block;
+  flex-shrink: 0;
   width: 20px;
   height: 20px;
   border: 1px solid #d0d5dd;
