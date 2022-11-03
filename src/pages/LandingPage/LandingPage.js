@@ -1,20 +1,11 @@
-import "../../App.css";
+import "./LandingPage.css";
 import profile from "../../images/profileFrame.svg";
 import dots from "../../images/dots.svg";
 import share from "../../images/share-icon.svg";
 import slack from "../../images/slack-icon.svg";
 import github from "../../images/github-icon.svg";
 import DefaultLayout from "../../layouts/default-layout/default-layout";
-
-function ButtonLink(props) {
-  const { id, url, text } = props;
-
-  return (
-    <a id={id} href={url} className="button-link">
-      {text}
-    </a>
-  );
-}
+import { ButtonLink } from "../../components/button-link/button-link";
 
 function LandingPage() {
   return (
@@ -73,6 +64,8 @@ function LandingPage() {
           url="https://books.zuri.team/design-rules"
           text="Design Books"
         />
+
+        <ButtonLink id="contact" url="/contact" text="Contact Me" />
       </div>
 
       <div className="social-section">

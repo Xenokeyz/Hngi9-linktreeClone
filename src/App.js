@@ -1,3 +1,4 @@
+import "./App.css";
 import Landing from "./pages/LandingPage/LandingPage";
 import Contact from "./pages/ContactPage/ContactPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
