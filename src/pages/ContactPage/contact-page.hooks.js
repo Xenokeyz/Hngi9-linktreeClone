@@ -41,7 +41,7 @@ export function useContactPageLogic() {
 export function errorMessage({ name, touched, values, message }) {
   if (name === "email") {
     return touched[name] &&
-      !/^([a-z0-9_\-\.]+)@([a-z0-9_\-\.]+)\.([a-z]{2,5})$/i.test(
+      !/^([a-z0-9_\-.]+)@([a-z0-9_\-.]+)\.([a-z]{2,5})$/i.test(
         values[name].trim()
       )
       ? "Please enter a valid email"

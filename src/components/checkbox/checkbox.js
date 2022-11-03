@@ -1,5 +1,4 @@
 import { useId } from "react";
-import { TextField } from "../textfield/textfield";
 import "./checkbox.css";
 
 export function Checkbox(props) {
