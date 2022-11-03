@@ -4,13 +4,13 @@ export function Button(props) {
   const { children, className, ...buttonProps } = props;
 
   return (
-    <a
+    <button
       className={["button", className, buttonProps.disabled ? "disabled" : ""]
         .filter((c) => !!c)
         .join(" ")}
       {...buttonProps}
     >
       {children}
-    </a>
+    </button>
   );
 }
