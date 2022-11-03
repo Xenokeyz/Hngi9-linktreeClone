@@ -2,7 +2,6 @@
   display: inline-flex;
   flex-direction: column;
   gap: 6px;
-  min-width: 320px;
 }
 
 .text-field input {
