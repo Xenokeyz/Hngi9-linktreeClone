@@ -7,8 +7,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/Hngi9-linktreeClone" element={<Landing />} />
+        <Route path="/Hngi9-linktreeClone/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

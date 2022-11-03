@@ -65,7 +65,11 @@ function LandingPage() {
           text="Design Books"
         />
 
-        <ButtonLink id="contact" url="/contact" text="Contact Me" />
+        <ButtonLink
+          id="contact"
+          url="/Hngi9-linktreeClone/contact"
+          text="Contact Me"
+        />
       </div>
 
       <div className="social-section">
