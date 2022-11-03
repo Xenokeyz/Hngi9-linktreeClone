@@ -14,7 +14,7 @@ export function TextArea(props) {
 
       <textarea id={id} {...textareaProps} />
 
-      {!!hint && <span>{hasError ? error : hint}</span>}
+      {(!!hint || hasError) && <span>{hasError ? error : hint}</span>}
     </div>
   );
 }
