@@ -1,0 +1,37 @@
+.text-field {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 320px;
+}
+
+.text-field input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid var(--gray200);
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  outline: none;
+
+  font: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+}
+
+.text-field input::placeholder {
+  color: var(--gray);
+}
+
+.text-field input:focus {
+  border: 1px solid var(--primary300);
+}
+
+.text-field label {
+  color: var(--gray700);
+}
+
+.text-field span {
+  color: var(--gray600);
+}
