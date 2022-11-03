@@ -1,10 +1,9 @@
-import i4g from "../../images/I4G-logo.svg";
-import zuri from "../../images/zuri.svg";
+import DefaultLayout from "../../layouts/default-layout/default-layout";
 
 function ContactPage() {
   return (
-    <>
-      <div className="container" id="Contact">
+    <DefaultLayout>
+      <div className="container" id="content">
         <div className="outer">
           <span className="close">&times;</span>
 
@@ -16,17 +15,7 @@ function ContactPage() {
             </p>
           </div>
           <form className="action">
-            <label for="fname">First Name</label>
-            <br />
-            <input
-              type="text"
-              id="fname"
-              name="fname"
-              placeholder="Enter your first and last name"
-              required
-            />
-          <form className="action">
-            <label for="fname">Last Name</label>
+            <label for="fname">Full Name</label>
             <br />
             <input
               type="text"
@@ -59,21 +48,7 @@ function ContactPage() {
           </form>
         </div>
       </div>
-
-      <div className="footer-section">
-        <div className="footer-section__container">
-          <a href="https://zuri.team">
-            <img src={zuri} alt="zuri logo" />
-          </a>
-
-          <p className="footer-text">HNG Internship 9 Frontend Task</p>
-
-          <a href="#i4g">
-            <img src={i4g} alt="i4g logo" />
-          </a>
-        </div>
-      </div>
-    </>
+    </DefaultLayout>
   );
 }
 

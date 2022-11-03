@@ -4,8 +4,7 @@ import dots from "../../images/dots.svg";
 import share from "../../images/share-icon.svg";
 import slack from "../../images/slack-icon.svg";
 import github from "../../images/github-icon.svg";
-import zuri from "../../images/zuri.svg";
-import i4g from "../../images/I4G-logo.svg";
+import DefaultLayout from "../../layouts/default-layout/default-layout";
 
 function ButtonLink(props) {
   const { id, url, text } = props;
@@ -19,7 +18,7 @@ function ButtonLink(props) {
 
 function LandingPage() {
   return (
-    <div className="app">
+    <DefaultLayout>
       <div className="profile-section">
         <img src={profile} id="profile__img" alt="user avatar" />
         <h1 id="twitter" className="twitter">
@@ -85,21 +84,7 @@ function LandingPage() {
           <img src={github} alt="github logo" />
         </a>
       </div>
-
-      <div className="footer-section">
-        <div className="footer-section__container">
-          <a href="https://zuri.team">
-            <img src={zuri} alt="zuri logo" />
-          </a>
-
-          <p className="footer-text">HNG Internship 9 Frontend Task</p>
-
-          <a href="#i4g">
-            <img src={i4g} alt="i4g logo" />
-          </a>
-        </div>
-      </div>
-    </div>
+    </DefaultLayout>
   );
 }
 
