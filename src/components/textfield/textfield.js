@@ -1,15 +1,20 @@
 import "./textfield.css";
 
 export function TextField(props) {
-  const { label, id, hint, className, ...inputProps } = props;
+  const { label, id, error, hint, className, ...inputProps } = props;
+  const hasError = !!error;
+  const classNames = ["text-field", className];
+  if (hasError) {
+    classNames.unshift("text-field--error");
+  }
 
   return (
-    <div className={["text-field", className].join(" ")}>
+    <div className={classNames.join(" ")}>
       <label htmlFor={id}>{label}</label>
 
       <input id={id} {...inputProps} />
 
-      {!!hint && <span>{hint}</span>}
+      {(!!hint || hasError) && <span>{hasError ? error : hint}</span>}
     </div>
   );
 }
