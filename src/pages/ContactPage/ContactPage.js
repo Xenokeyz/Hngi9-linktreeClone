@@ -32,6 +32,7 @@ function ContactPage() {
           <div className="d-grid" style={{ "--gap": "24px" }}>
             <div className="d-grid d-flex-md">
               <TextField
+                id="first_name"
                 className="contact-page__input"
                 label="First name"
                 name="firstName"
@@ -48,6 +49,7 @@ function ContactPage() {
               />
 
               <TextField
+                id="last_name"
                 className="contact-page__input"
                 name="lastName"
                 value={values.lastName}
@@ -65,6 +67,7 @@ function ContactPage() {
             </div>
 
             <TextField
+              id="email"
               name="email"
               value={values.email}
               onChange={handleChange}
@@ -80,6 +83,7 @@ function ContactPage() {
             />
 
             <TextArea
+              id="message"
               name="message"
               value={values.message}
               onChange={handleChange}
@@ -104,7 +108,11 @@ function ContactPage() {
             </Checkbox>
           </div>
 
-          <Button disabled={hasError || !consented} type="submit">
+          <Button
+            id="btn__submit"
+            disabled={hasError || !consented}
+            type="submit"
+          >
             Send message
           </Button>
         </form>
